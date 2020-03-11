@@ -1,0 +1,5 @@
+#!/bin/bash -x
+#GENERATED THE RANDOM DICE NUMBER
+random=$((RANDOM%6+1))
+#DISPLAY THE RANDOM DICE NUMBER
+echo $random
